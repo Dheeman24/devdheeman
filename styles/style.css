@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+
+}
+header{
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/banner/banner2.png");
+    margin-right: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 700px;
+   
+
+
+}
+.header-pra{
+    padding-bottom: 20px;
+}
+
+.header h2{
+    font-family: Work Sans;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0em;
+    text-align: right;
+    margin-bottom: 18px;
+   
+    
+}
+.header{
+    display: flex;
+}
+.first-nav{
+    width: 50%;
+    margin-bottom: 365px;
+}
+
+.second-nav{
+    margin-top: 180px;
+    margin-right: 100px;
+    width: 50%;
+    text-align: right;
+    margin-bottom: 365px;
+}
+.second-nav .primary-button{
+    margin-bottom: 200px;
+}
+.primary-button{
+    background-color: orangered;
+    padding: 20px 26px;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+}
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* failure section */
+.failure{
+    margin-top: 70px;
+    height: 500px;
+    display: flex;
+    padding: 0px 80px;
+}
+.failure-image img{
+    height:400px;
+}
+.failure-text{
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.failure-text h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+.section-discription{
+    margin-bottom: 10px;
+}
+.failure-text li{
+    margin-bottom: 5px;
+}
+
+.plan{
+    display: flex;
+}
+.my-plan .plan{
+    justify-content: center;
+}
+.my-plan{
+    justify-content: center;
+}
+.section-title2{
+    text-align: center;
+}
+.plan-blog{
+    margin: 40px;
+    text-align: center;
+}
+
+.mindset{
+    
+    width: 940px;
+    padding-bottom: 220px;
+    /* background-image: url("../images/watch.png"); */
+    background-image:
+    linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/watch.png');
+    background-repeat: no-repeat;
+}
+.call-now-button{
+    background-color: white;
+    padding: 15px 20px;
+    color: orangered;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 10%;
+}
+.mindset{
+    padding: 80px;
+    margin: 40px;
+}
+.mindset-text h4{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 10px;
+}
+/* footer css */
+
+footer{
+    background-color: black;
+    
+}
+.feature{
+    width: 400px;
+}
+.footer-feature h2{
+    color: white;
+    padding-bottom: 10px;
+}
+.footer-feature p{
+    color: white;
+    padding-bottom: 10px;
+}
+.footer-feature{
+    display: flex;
+    padding: 90px;
+}
+.footer-sub h2{
+    color: white;
+}
+.footer-sub{
+    margin-left: 150px;
+    padding-left: 150px;
+}
+.footer-sub input{
+    width: 300px;
+    height: 40px;
+    border-radius: 5%;
+    margin-bottom: 15px;
+    margin-top: 40px;
+}
